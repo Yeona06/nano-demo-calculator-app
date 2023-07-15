@@ -11,7 +11,7 @@ def greeting():
     #return the greeting message
     return message
 
-@app.route("/calculator/add", methods=['POST'])
+@app.route("/calculator/add", methods=['POSTp'])
 def add():
     data = request.get_json()
     #retrive the number to be added
